@@ -1,0 +1,30 @@
+For the AJAX Search:
+
+Add the shortcode [ect_search] to your theme's header.php or sidebar.php
+OR
+Create a new widget area and use the shortcode there
+
+
+Key Features:
+
+Cached AJAX search results using WordPress transients
+Sanitized inputs and escaped outputs
+Proper script enqueuing and localization
+Responsive design that works with most themes
+Translation-ready code
+Search results dropdown that closes when clicking outside
+Loading state feedback
+Clean, semantic HTML structure
+Best Practices Implemented:
+
+Proper use of WordPress widget API
+AJAX handling with nonce verification
+WP_Query usage for database operations
+Transients API for caching
+Proper script/style enqueuing
+Input sanitization and output escaping
+Separation of concerns (PHP, JS, CSS in separate files)
+Translation functions used throughout
+Shortcode for flexible placement
+Responsive and accessible markup
+    
